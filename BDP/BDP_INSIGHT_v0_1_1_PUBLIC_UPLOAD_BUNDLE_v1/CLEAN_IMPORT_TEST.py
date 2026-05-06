@@ -3,7 +3,7 @@ from bdp_insight.api import BDPHodgeConfig, check_rapidapi_config, queue_hodge_o
 config = BDPHodgeConfig(
     rapidapi_url="https://bdp-insight-l2.p.rapidapi.com/v1/hodge/convert",
     rapidapi_host="bdp-insight-l2.p.rapidapi.com",
-    rapidapi_key="873cf1a0e2msh160bd4a63ec23b2p159489jsn1d68059eb6df",
+    rapidapi_key="",
 )
 
 print(check_rapidapi_config(config))
